@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-header {
+    display: flex;
+}
+
+.header-logo {
+    padding: 15px 6px 15px 10px;
+    width: 108px;
+    height: 23px;
+}
+
+.header-picture {
+    width: 100%;
+    height: 100%;
+}
+
+.header-nav {
+    padding-top: 12px;
+    margin-left: 20px;
+}
+
+.header-nav_list {
+    display: flex;
+    margin: 0;
+}
+
+.header-nav_item {
+    margin: 6px 10px;
+    padding-bottom: 3px;
+}
+
+.border:hover {
+    border-bottom: 2px solid #262626;
+}
+
+.header-submenu {
+    margin: 7px 10px;
+    padding: 0;
+    list-style: none;
+}
+  
+.header-submenu > li {
+    position: relative;
+    display: inline-block;
+    margin-right: -4px;
+}
+  
+.header-submenu a {
+    display: block;
+    margin-left: -1px;
+    padding: 8px 10px;
+    color: #262626;
+}
+  
+.header-submenu .header-submenu-link {
+    position: absolute;
+    left: 1px;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-submenu > li:hover .header-submenu-link {
+    display: flex;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+.header-panel {
+    margin: 11px;
+}
+
+.header-panel-link {
+    margin-left: 15px;
+}
+
+.header-panel-link:first-child {
+    margin-right: 30px;
+}
+
+.header-panel-item {
+    padding-bottom: 3px;
+}
+
+.fas {
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.hero-top {
+    background: #b8d3e6 url(images/bg_hero.jpg) right/contain no-repeat;
+    min-height: 600px;
+    color: #3d464d;
+}
+
+.container-db {
+    margin: auto;
+    max-width: 1110px;
+}
+
+.hero-content {
+    padding: 50px;
+    max-width: 670px;
+}
+
+.hero-title {
+    font-size: 47px;
+    margin-right: 200px;
+}
+
+.hero-text {
+    margin: 40px 200px 60px 0;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.hero-light {
+    font-weight: lighter;
+}
+
+.hero-button {
+    padding: 19px 26px;
+    font-size: 22px;
+    color: #fff;
+    background: #0070E0;
+    border-radius: 8px;
+}
+
+.hero-button:hover {
+    background: #1E90FF;
+}
+
+.hero-stocklink {
+    border-bottom: 1px solid #0071e0;
+    color: #0071e0;
+}
+
+.hero-stocklink:hover {
+    color: #1E90FF;
+}
+
+.hero-other {
+    font-size: 15px;
+    margin: 20px 100px;
+}
+
+.hero-footer {
+    padding: 25px;
+    text-align: center;
+    font-size: 14px;
+    background: #f6f9fc;
+    border-top: 1px solid #72b6ec;
+    border-bottom: 1px solid #72b6ec;
+}
+
+.hero-footer_link {
+    padding-left: 10px;
+    color: #0071e0;
+}
+
+.subs {
+    text-align: center;
+    padding: 200px 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #ff3365;
+}
+
+.subs-square {
+    width: 10px;
+    height: 10px;
+    background: #fff
+}
+
+.subs-text {
+    color: #fff;
+    font-size: 70px;
+    margin: 100px auto;
+}
+
+.subs-link {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 30px 50px;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.5);
+}
+
+.subs-link:hover {
+    color: #ff3365;
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.spec-top {
+    display: flex;
+}
+
+.spec-sale {
+    padding-top: 80px;
+    width: 50%;
+    text-align: center;
+}
+
+.spec-sale:nth-child(2) {
+    background: #e8e8ea;
+}
+
+.spec-sale-img {
+    max-width: 640px;
+    max-height: 480px;
+}
+
+.spac-sale-list {
+    margin: 30px auto;
+    padding-bottom: 20px;
+}
+
+.spec-sale-name {
+    font-size: 40px;
+}
+
+.spec-sale-price {
+    padding: 30px 0;
+    font-size: 30px;
+    color: #777879;
+}
+
+.spec-sale-link {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.spec-sale-link_item {
+    color: #fff;
+    background: #0070E0;
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+.spec-sale-link_item:hover {
+    background: #1E90FF;
+}
+
+.spec-sale-type {
+    color: #777879;
+    margin: auto;
+    width: 55%;
+}
+
+.spec-sale-type_item {
+    margin: 20px auto;
+    display: flex;
+    align-self: start;
+}
+
+.spec-sale-type_text {
+    text-align: left;
+    line-height: 24px;
+}
+
+.fa-microchip  {
+    margin-right: 10px;
+}
+
+.fa-book-open {
+    margin-right: 5px;
+}
+
+.fa-gamepad {
+    margin-right: 4px;
+}
+
+.fa-glasses {
+    margin-right: 10px;
+}
+.fa-tv {
+    margin-right: 5px;
+}
+
+.fa-mouse-pointer {
+    padding-left: 10px;
+    margin-right: 7px;
+}
+
+.spec-baner {
+    float: left;
+    width: 33.33333%;
+}
+
+.spec-baner_size {
+    height: 300px;
+}
+
+.spec-baner-img1 {
+    background: gray url(images/torn.jpg) center/cover no-repeat;
+    background-blend-mode: multiply;
+}
+
+.spec-baner-img1:hover {
+    background-size:120% 120%;
+    background-blend-mode: normal;
+}
+
+.spec-baner-img2 {
+    background: gray url(images/evil.jpg) center/cover no-repeat;
+    background-blend-mode: multiply;
+}
+
+.spec-baner-img2:hover {
+    background-size:120% 120%;
+    background-blend-mode: normal;
+}
+
+.spec-baner-img3 {
+    background: gray url(images/asgard.jpg) center/cover no-repeat;
+    background-blend-mode: multiply;
+}
+
+.spec-baner-img3:hover {
+    background-size:120% 120%;
+    background-blend-mode: normal;
+}
+
+.spec-baner-text {
+    position: relative;
+    text-align: center;
+    top: 50%;
+}
+
+.spec-baner_description {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #777879;
+}
+
+.spec-baner_name {
+    margin: auto 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.footer {
+    font-size: 12px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.container-ft {
+    margin: auto;
+    max-width: 1024px;
+}
+
+.footer-top {
+    display: flex;
+    padding: 5px 0 20px;
+}
+
+.footer-list-wrap {
+    display: inline-block;
+    width: 20%;
+}
+
+.footer-list {
+    margin-right: 45px;
+    margin-top: 30px;
+}
+
+.footer-item {
+    margin: 12px 0;
+}
+
+.footer-item-link:hover {
+    text-decoration: underline;
+}
+
+.footer-item-link {
+    color: #333;
+}
+
+.footer-bottom {
+    color: #888;
+}
+
+.footer-contact {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #888;
+}
+
+.footer-reseller {
+    color: #0070c9;
+}
+
+.footer-copy {
+    position: relative;
+    margin-top: 10px;
+}
+
+.footer-lang {
+    float: right;
+    color: #888;
+}
+
+.footer-lang:hover {
+    text-decoration: underline;
+}
+
+.flag {
+    position: absolute;
+    top: -5px;
+    right: 43px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 0.5px solid #888;
+    border-radius: 50%;
+    background: url(https://i.ebayimg.com/images/g/k8IAAMXQtUxTck2X/s-l300.jpg) center/cover no-repeat;
+}
+
+.footer-nav {
+    display: flex;
+    color: #888;
+}
+
+.br-rt {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #888;
+}
+
+.br-rt:last-child {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: none;
+}
